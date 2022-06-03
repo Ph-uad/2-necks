@@ -1,0 +1,69 @@
+.fluid-container{
+    margin: 5% auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    &-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.section{
+    width: 70vw;
+    margin: 2% auto;
+    padding: 5% 1%;
+}
+
+
+.tile {
+    height: 79rem;
+    width: 43.9rem;
+
+    &-contemporary{
+        align-items: center;
+        border-radius: 3rem;
+        height: 40.4rem;
+        width: 95.3rem;
+        padding: 3rem;
+        background: linear-gradient(0deg, rgba(169, 51, 51, 1), rgba(169, 51, 51, 1));
+    }
+
+    &-poster{
+        height: 57rem;
+        width: 43.9rem;
+        margin-bottom: 1%;
+    
+
+
+        &__red{
+            background: linear-gradient(0deg, rgba(205, 17, 17, 0.06), rgba(205, 17, 17, 0.06)), url(../media/images/thanos-pal-9OZfTe-y5T4-unsplash.jpg);
+            background-size: cover;
+            background-position: top center;
+            background-repeat: no-repeat;
+        }
+    }
+
+    &-icon{
+        width: 26.8rem;
+        height: 26.8rem;
+        clip-path: circle(40% at 50%);
+    }
+
+    transition: transform .3s ease-in-out;
+
+    &:hover{
+        transform: translateY(-2%);
+    }
+
+    &-text{
+        width: 60%;
+     
+    }
+}

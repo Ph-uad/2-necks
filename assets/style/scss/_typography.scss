@@ -1,0 +1,52 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.heading{
+    &-jumbo{
+        font-size: 7rem;
+        line-height: 1.1;
+    }
+    &-secondary{
+        font-size: 3.5rem;
+    }
+
+    &-tertiary{
+        font-size: 3rem;
+        font-style: italic;
+        font-weight: 300;
+        line-height: .8;
+    }
+}
+
+.white{
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+
+.short-line{
+    line-height: .2;
+}
+
+.dark-text{
+    color: var(--color-gray);
+}
+
+.paragraph{
+    font-size: 1.6rem;
+    line-height: 1.4;
+    font-weight: 200;
+}
+
+.link{
+    color: #ed9d93;
+
+    &-container{
+        text-decoration: none;
+        color: currentColor;
+    }
+}
+.center{
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+.header {
+  
+    &-container {
+        height: 93vh;
+        position: relative;
+        background: linear-gradient(to right, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url(../media/images/hero.jpeg);
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+    
+
+        &__half{
+            height: 46.5vh;
+            background: linear-gradient(0deg, rgba(0, 1, 1, 0.6), rgba(0, 1, 1, 0.6)), url(../media/images/thanos-pal-9OZfTe-y5T4-unsplash.jpg);
+            background-position: center center;
+        }
+    }
+}
+
+.main {
+
+    &-red, 
+    &-blue{
+        background: linear-gradient(to right, #6262623a, #6262623a),url(../media/images/thanos-pal-9OZfTe-y5T4-unsplash.jpg);
+        background-size: cover;
+        border-radius: 30px;
+    }
+
+    &-blue{
+        background: linear-gradient(to right, #6262623a, #6262623a), url(../media/images/ralph-ravi-kayden-VmAaEe0vVi0-unsplash.jpg);
+        background-size: cover;
+    }
+}
+
+.footer{
+    padding: 5rem;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+
+}
